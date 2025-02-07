@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    border:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu{
+    height: 100dvh;
+    width: 16%;
+    border-right: 1px solid rgba(194, 193, 193, 0.715);
+    position:fixed;
+}
+.logo{
+    height: 40px;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+.home{
+    display: flex;
+    padding: 14px;
+}
+.content{
+    height: 3000px;
+    width: 52%;
+    margin-left: 245px;
+    display: flex;
+    flex-direction: column;
+}
+.posts{
+    height: 500px;
+    width: 80%;
+    padding-left: 120px;
+    padding-top: 30px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.post_title{
+    height: 70px;
+    width: 76%;
+    padding-top: 20px;
+    display:flex;
+    align-items: center;
+}
+.like_bar{
+    height: 40px;
+    width: 72%;
+    padding-top: 25px;
+    display: flex;
+    flex-direction: row;
+}
+.like{
+    height: 40;
+    width: 50%;
+    display: flex;
+}
+.post{
+    height: 585px;
+    width: 72%;
+    align-items: center;
+    background-color: black;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+.l1{
+    height: 60px;
+    width: 72%;
+    font-size: 14px;
+    line-height: 24px;
+}
+.stories{
+    height: 67px;
+    width:100%;
+    padding-top: 30px;
+    margin-left: 120px;
+}
+.story{
+    height: 55px;
+    border-radius:40px;
+    border:2.5px solid rgb(231, 94, 185);
+    padding:2px;
+}
+.story_name{
+    height: 20px;
+    width: 100%;
+    font-size: 12px;
+    margin-left: 125px;
+    display: flex;
+}
+.account{
+    height: 900px;
+    width: 30%;
+}
+.my_pro{
+    height: 75px;
+    width: 70%;
+    margin-top: 40px;
+    margin-left: 40px;
+    display: flex;
+    font-size: 14px;
+}
+.suggestion{
+    height: 200px;
+    width: 75%;
+    margin-left: 40px;
+}
+.sugg_had{
+    height: 20px;
+    width: 100%;
+    font-size: 14px;
+    color: #737373;
+    font-weight: bold;
+    display: flex;
+}
+.follower{
+    height: 75px;
+    width: 80%;
+    display: flex;
+    font-size: 14px;
+    padding-top: 10px;
+}
+.fol{
+    height: 55px;
+}
+.fol_img{
+    height: 45px;
+    border-radius:25px;
+}
+.fol_had{
+    display: flex;
+    flex-direction:column;
+}
+.fol_p1{
+    padding-left: 15px;
+    padding-top:5px;
+}
+.fol_p2{
+    color:#737373;
+    width:150px;
+    margin-top:-13px;
+    padding-left:15px;
+}
+.fol_p3{
+    margin-left:55px;
+    padding-top:20px;
+    font-size:12px;
+    color:#0095f6;
+}
+.copyright{
+    height: 100px;
+    width: 250px;
+}
+.list:hover{
+    text-decoration: underline;
+}
